@@ -124,7 +124,7 @@
                                 <div class="footer">
                                     <hr />
                                     <div class="stats">
-                                        <i class="ti-info"></i> Won 0% of 1 Groups Entered
+                                        <i class="ti-info"></i> Won 0% of 2 Groups Entered
                                     </div>
                                 </div>
                             </div>
@@ -149,7 +149,7 @@
                                 <div class="footer">
                                     <hr />
                                     <div class="stats">
-                                        <i class="ti-info"></i> Won 100% of 1 Matches Played
+                                        <i class="ti-info"></i> Won 50% of 2 Matches Played
                                     </div>
                                 </div>
                             </div>
@@ -174,7 +174,7 @@
                                 <div class="footer">
                                     <hr />
                                     <div class="stats">
-                                        <i class="ti-timer"></i> Won 66% of 3 Sets Played
+                                        <i class="ti-timer"></i> Won 40% of 5 Sets Played
                                     </div>
                                 </div>
                             </div>
@@ -192,14 +192,14 @@
                                     <div class="col-xs-7">
                                         <div class="numbers">
                                             <p>Games Won</p>
-                                            12
+                                            19
                                         </div>
                                     </div>
                                 </div>
                                 <div class="footer">
                                     <hr />
                                     <div class="stats">
-                                        <i class="ti-info"></i> Won 54% of 22 Games Played
+                                        <i class="ti-info"></i> Won 46% of 41 Games Played
                                     </div>
                                 </div>
                             </div>
@@ -270,13 +270,13 @@
                                 <div class="footer">
                                     <div class="chart-legend">
                                         <i class="fa fa-circle text-info"></i> Won 1
-                                        <i class="fa fa-circle text-warning"></i> Lost 0
+                                        <i class="fa fa-circle text-warning"></i> Lost 1
                                         <i class="fa fa-circle text-danger"></i> Unfinished 0
-                                        <i class="fa fa-circle text-success"></i> Not Played 5
+                                        <i class="fa fa-circle text-success"></i> Not Played 10
                                     </div>
                                     <hr>
                                     <div class="stats">
-                                        <i class="check"></i> Data from 1 matches
+                                        <i class="check"></i> Data from 2 matches
                                     </div>
                                 </div>
                             </div>
@@ -293,12 +293,12 @@
 
                                 <div class="footer">
                                     <div class="chart-legend">
-                                        <i class="fa fa-circle text-info"></i> Won 54%
-                                                                                <i class="fa fa-circle text-warning"></i> Lost 46%
+                                        <i class="fa fa-circle text-info"></i> Won 46%
+                                                                                <i class="fa fa-circle text-warning"></i> Lost 54%
                                     </div>
                                     <hr>
                                     <div class="stats">
-                                        <i class="ti-check"></i> Data from 22 Games
+                                        <i class="ti-check"></i> Data from 41 Games
                                     </div>
                                 </div>
                             </div>
@@ -387,6 +387,19 @@
                                         <td>0</td>
                                         <td>2</td>
                                     </tr>
+                                                                        <tr>
+                                        <td>52</td>
+                                        <td>15</td>
+                                        <td>4</td>
+
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>5</td>
+
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
                                     
                                     </tbody>
                                 </table>
@@ -426,6 +439,16 @@
                                         <td>6-1</td>
                                                                         </tr>
 
+                                                                        <tr>
+                                        <td>15</td>
+                                        <td>-</td>
+                                                                            <td><a href="player_190.html">Christopher Hill</a></td>
+                                        <td>Lost</td>
+                                        <td>3-6</td>
+                                        <td>4-6</td>
+                                        <td>0-0</td>
+                                                                        </tr>
+
                                     
                                     </tbody>
                                 </table>
@@ -460,6 +483,24 @@
     </div>
 </div>
 
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11222996;
+var sc_invisible=1;
+var sc_security="3a7c70c6";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="site stats"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11222996/0/3a7c70c6/1/" alt="site
+stats"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
 
 </body>
 
@@ -500,7 +541,7 @@
 
     var data = {
   labels: ['Won', 'Lost', 'Unfinished', 'Not Played'],
-  series: [1, 0, 0, 5]
+  series: [1, 1, 0, 10]
 };
 
 var options = {
@@ -531,7 +572,7 @@ new Chartist.Pie('#chartMatchPerformance', data, options, responsiveOptions);
 
 <script>
     new Chartist.Bar('#groupPerformance',
-    {"labels":["L50 G17"],"series":[[1],[0],[0],[5]]}
+    {"labels":["L50 G17","L52 G15"],"series":[[1,0],[0,1],[0,0],[5,5]]}
     , {
   seriesBarDistance: 10,
   axisX: {
@@ -550,7 +591,7 @@ new Chartist.Bar('#streakPerformance', {
   labels: ['Matches', 'Sets'],
   series: [
     [1, 0],
-    [0, 1]
+    [1, 3]
 
   ]
 }, {
@@ -567,7 +608,7 @@ new Chartist.Bar('#streakPerformance', {
 
 <script>
     new Chartist.Pie('#gameStats', {
-  series: [12, 10]
+  series: [19, 22]
 }, {
   donut: true,
   donutWidth: 20,
@@ -594,7 +635,7 @@ new Chartist.Bar('#streakPerformance', {
 // Create a new line chart object where as first parameter we pass in a selector
 // that is resolving to our chart container element. The Second parameter
 // is the actual data object.
-new Chartist.Line('#groupChanges', {"labels":["L50"],"series":[[17]]}, options);
+new Chartist.Line('#groupChanges', {"labels":["L50","L52"],"series":[[17,15]]}, options);
 </script>
 
 <script>
@@ -635,7 +676,7 @@ new Chartist.Line('#groupChanges', {"labels":["L50"],"series":[[17]]}, options);
           }]
         ];
 
-        Chartist.Line('#performancePercentage', {"labels":["L50"],"series":[[31],[29],[71]]}, optionsSales, responsiveSales);
+        Chartist.Line('#performancePercentage', {"labels":["L50","L52"],"series":[[31,27],[29,24],[71,57]]}, optionsSales, responsiveSales);
 
 </script>
 
