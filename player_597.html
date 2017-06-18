@@ -92,7 +92,7 @@
                                 <li><a href="player_6.html">By Win %</a></li>
                                 <li><a href="player_17.html">By Games</a></li>
                                 <li><a href="player_357.html">By Win Streak</a></li>
-                                <li><a href="player_234.html">By Losing Streak</a></li>
+                                <li><a href="player_476.html">By Losing Streak</a></li>
                               </ul>
                         </li>
                     </ul>
@@ -124,7 +124,7 @@
                                 <div class="footer">
                                     <hr />
                                     <div class="stats">
-                                        <i class="ti-info"></i> Won 0% of 1 Groups Entered
+                                        <i class="ti-info"></i> Won 0% of 2 Groups Entered
                                     </div>
                                 </div>
                             </div>
@@ -149,7 +149,7 @@
                                 <div class="footer">
                                     <hr />
                                     <div class="stats">
-                                        <i class="ti-info"></i> Won 0% of 6 Matches Played
+                                        <i class="ti-info"></i> Won 0% of 9 Matches Played
                                     </div>
                                 </div>
                             </div>
@@ -174,7 +174,7 @@
                                 <div class="footer">
                                     <hr />
                                     <div class="stats">
-                                        <i class="ti-timer"></i> Won 0% of 12 Sets Played
+                                        <i class="ti-timer"></i> Won 0% of 18 Sets Played
                                     </div>
                                 </div>
                             </div>
@@ -192,14 +192,14 @@
                                     <div class="col-xs-7">
                                         <div class="numbers">
                                             <p>Games Won</p>
-                                            15
+                                            29
                                         </div>
                                     </div>
                                 </div>
                                 <div class="footer">
                                     <hr />
                                     <div class="stats">
-                                        <i class="ti-info"></i> Won 17% of 88 Games Played
+                                        <i class="ti-info"></i> Won 21% of 138 Games Played
                                     </div>
                                 </div>
                             </div>
@@ -270,13 +270,13 @@
                                 <div class="footer">
                                     <div class="chart-legend">
                                         <i class="fa fa-circle text-info"></i> Won 0
-                                        <i class="fa fa-circle text-warning"></i> Lost 6
-                                        <i class="fa fa-circle text-danger"></i> Unfinished 0
-                                        <i class="fa fa-circle text-success"></i> Not Played 1
+                                        <i class="fa fa-circle text-warning"></i> Lost 8
+                                        <i class="fa fa-circle text-danger"></i> Unfinished 1
+                                        <i class="fa fa-circle text-success"></i> Not Played 4
                                     </div>
                                     <hr>
                                     <div class="stats">
-                                        <i class="check"></i> Data from 6 matches
+                                        <i class="check"></i> Data from 9 matches
                                     </div>
                                 </div>
                             </div>
@@ -293,12 +293,12 @@
 
                                 <div class="footer">
                                     <div class="chart-legend">
-                                        <i class="fa fa-circle text-info"></i> Won 17%
-                                                                                <i class="fa fa-circle text-warning"></i> Lost 83%
+                                        <i class="fa fa-circle text-info"></i> Won 21%
+                                                                                <i class="fa fa-circle text-warning"></i> Lost 79%
                                     </div>
                                     <hr>
                                     <div class="stats">
-                                        <i class="ti-check"></i> Data from 88 Games
+                                        <i class="ti-check"></i> Data from 138 Games
                                     </div>
                                 </div>
                             </div>
@@ -387,6 +387,19 @@
                                         <td>2</td>
                                         <td>2</td>
                                     </tr>
+                                                                        <tr>
+                                        <td>53</td>
+                                        <td>20</td>
+                                        <td>8</td>
+
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>3</td>
+
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
                                     
                                     </tbody>
                                 </table>
@@ -473,6 +486,36 @@
                                         <td>Lost</td>
                                         <td>1-6</td>
                                         <td>2-6</td>
+                                        <td>0-0</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                        <td>20</td>
+                                        <td>-</td>
+                                                                            <td><a href="player_668.html">Donford Henricus</a></td>
+                                        <td>Lost</td>
+                                        <td>0-6</td>
+                                        <td>3-6</td>
+                                        <td>0-0</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                        <td>20</td>
+                                        <td>-</td>
+                                                                            <td><a href="player_265.html">Emma Jones</a></td>
+                                        <td>Lost</td>
+                                        <td>5-7</td>
+                                        <td>4-5</td>
+                                        <td>0-0</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                        <td>20</td>
+                                        <td>-</td>
+                                                                            <td><a href="player_670.html">Katie Robinson</a></td>
+                                        <td>Lost</td>
+                                        <td>1-6</td>
+                                        <td>1-6</td>
                                         <td>0-0</td>
                                                                         </tr>
 
@@ -568,7 +611,7 @@ stats"></a></div></noscript>
 
     var data = {
   labels: ['Won', 'Lost', 'Unfinished', 'Not Played'],
-  series: [0, 6, 0, 1]
+  series: [0, 8, 1, 4]
 };
 
 var options = {
@@ -599,7 +642,7 @@ new Chartist.Pie('#chartMatchPerformance', data, options, responsiveOptions);
 
 <script>
     new Chartist.Bar('#groupPerformance',
-    {"labels":["L50 G23"],"series":[[0],[6],[0],[1]]}
+    {"labels":["L50 G23","L53 G20"],"series":[[0,0],[6,3],[0,1],[1,3]]}
     , {
   seriesBarDistance: 10,
   axisX: {
@@ -618,7 +661,7 @@ new Chartist.Bar('#streakPerformance', {
   labels: ['Matches', 'Sets'],
   series: [
     [0, 0],
-    [6, 12]
+    [8, 18]
 
   ]
 }, {
@@ -635,7 +678,7 @@ new Chartist.Bar('#streakPerformance', {
 
 <script>
     new Chartist.Pie('#gameStats', {
-  series: [15, 73]
+  series: [29, 109]
 }, {
   donut: true,
   donutWidth: 20,
@@ -662,7 +705,7 @@ new Chartist.Bar('#streakPerformance', {
 // Create a new line chart object where as first parameter we pass in a selector
 // that is resolving to our chart container element. The Second parameter
 // is the actual data object.
-new Chartist.Line('#groupChanges', {"labels":["L50"],"series":[[23]]}, options);
+new Chartist.Line('#groupChanges', {"labels":["L50","L53"],"series":[[23,20]]}, options);
 </script>
 
 <script>
@@ -703,7 +746,7 @@ new Chartist.Line('#groupChanges', {"labels":["L50"],"series":[[23]]}, options);
           }]
         ];
 
-        Chartist.Line('#performancePercentage', {"labels":["L50"],"series":[[5],[2],[25]]}, optionsSales, responsiveSales);
+        Chartist.Line('#performancePercentage', {"labels":["L50","L53"],"series":[[5,5],[2,1],[25,12]]}, optionsSales, responsiveSales);
 
 </script>
 

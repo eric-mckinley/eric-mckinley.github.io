@@ -92,7 +92,7 @@
                                 <li><a href="player_6.html">By Win %</a></li>
                                 <li><a href="player_17.html">By Games</a></li>
                                 <li><a href="player_357.html">By Win Streak</a></li>
-                                <li><a href="player_234.html">By Losing Streak</a></li>
+                                <li><a href="player_476.html">By Losing Streak</a></li>
                               </ul>
                         </li>
                     </ul>
@@ -124,7 +124,7 @@
                                 <div class="footer">
                                     <hr />
                                     <div class="stats">
-                                        <i class="ti-info"></i> Won 0% of 5 Groups Entered
+                                        <i class="ti-info"></i> Won 0% of 6 Groups Entered
                                     </div>
                                 </div>
                             </div>
@@ -142,14 +142,14 @@
                                     <div class="col-xs-7">
                                         <div class="numbers">
                                             <p>Matches Won</p>
-                                            5
+                                            6
                                         </div>
                                     </div>
                                 </div>
                                 <div class="footer">
                                     <hr />
                                     <div class="stats">
-                                        <i class="ti-info"></i> Won 25% of 20 Matches Played
+                                        <i class="ti-info"></i> Won 27% of 22 Matches Played
                                     </div>
                                 </div>
                             </div>
@@ -167,14 +167,14 @@
                                     <div class="col-xs-7">
                                         <div class="numbers">
                                             <p>Sets Won</p>
-                                            11
+                                            13
                                         </div>
                                     </div>
                                 </div>
                                 <div class="footer">
                                     <hr />
                                     <div class="stats">
-                                        <i class="ti-timer"></i> Won 26% of 41 Sets Played
+                                        <i class="ti-timer"></i> Won 28% of 45 Sets Played
                                     </div>
                                 </div>
                             </div>
@@ -192,14 +192,14 @@
                                     <div class="col-xs-7">
                                         <div class="numbers">
                                             <p>Games Won</p>
-                                            133
+                                            152
                                         </div>
                                     </div>
                                 </div>
                                 <div class="footer">
                                     <hr />
                                     <div class="stats">
-                                        <i class="ti-info"></i> Won 39% of 339 Games Played
+                                        <i class="ti-info"></i> Won 40% of 375 Games Played
                                     </div>
                                 </div>
                             </div>
@@ -269,14 +269,14 @@
 
                                 <div class="footer">
                                     <div class="chart-legend">
-                                        <i class="fa fa-circle text-info"></i> Won 5
-                                        <i class="fa fa-circle text-warning"></i> Lost 14
+                                        <i class="fa fa-circle text-info"></i> Won 6
+                                        <i class="fa fa-circle text-warning"></i> Lost 15
                                         <i class="fa fa-circle text-danger"></i> Unfinished 1
-                                        <i class="fa fa-circle text-success"></i> Not Played 15
+                                        <i class="fa fa-circle text-success"></i> Not Played 20
                                     </div>
                                     <hr>
                                     <div class="stats">
-                                        <i class="check"></i> Data from 20 matches
+                                        <i class="check"></i> Data from 22 matches
                                     </div>
                                 </div>
                             </div>
@@ -293,12 +293,12 @@
 
                                 <div class="footer">
                                     <div class="chart-legend">
-                                        <i class="fa fa-circle text-info"></i> Won 39%
-                                                                                <i class="fa fa-circle text-warning"></i> Lost 61%
+                                        <i class="fa fa-circle text-info"></i> Won 40%
+                                                                                <i class="fa fa-circle text-warning"></i> Lost 60%
                                     </div>
                                     <hr>
                                     <div class="stats">
-                                        <i class="ti-check"></i> Data from 339 Games
+                                        <i class="ti-check"></i> Data from 375 Games
                                     </div>
                                 </div>
                             </div>
@@ -437,6 +437,19 @@
                                         <td>4</td>
 
                                         <td>2</td>
+                                        <td>2</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>53</td>
+                                        <td>15</td>
+                                        <td>5</td>
+
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>5</td>
+
+                                        <td>0</td>
                                         <td>2</td>
                                     </tr>
                                     
@@ -668,6 +681,26 @@
                                         <td>0-0</td>
                                                                         </tr>
 
+                                                                        <tr>
+                                        <td>15</td>
+                                        <td>-</td>
+                                                                            <td><a href="player_97.html">Brett Galloway</a></td>
+                                        <td>Won</td>
+                                        <td>7-5</td>
+                                        <td>6-0</td>
+                                        <td>0-0</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                        <td>15</td>
+                                        <td>-</td>
+                                                                            <td><a href="player_578.html">Adam Ingles</a></td>
+                                        <td>Lost</td>
+                                        <td>2-6</td>
+                                        <td>4-6</td>
+                                        <td>0-0</td>
+                                                                        </tr>
+
                                     
                                     </tbody>
                                 </table>
@@ -760,7 +793,7 @@ stats"></a></div></noscript>
 
     var data = {
   labels: ['Won', 'Lost', 'Unfinished', 'Not Played'],
-  series: [5, 14, 1, 15]
+  series: [6, 15, 1, 20]
 };
 
 var options = {
@@ -791,7 +824,7 @@ new Chartist.Pie('#chartMatchPerformance', data, options, responsiveOptions);
 
 <script>
     new Chartist.Bar('#groupPerformance',
-    {"labels":["L45 G9","L46 G8","L47 G10","L48 G11","L50 G12"],"series":[[0,2,3,1,0],[5,3,1,2,3],[0,0,0,0,0],[2,3,2,4,4]]}
+    {"labels":["L45 G9","L46 G8","L47 G10","L48 G11","L50 G12","L53 G15"],"series":[[0,2,3,1,0,1],[5,3,1,2,3,1],[0,0,0,0,0,0],[2,3,2,4,4,5]]}
     , {
   seriesBarDistance: 10,
   axisX: {
@@ -827,7 +860,7 @@ new Chartist.Bar('#streakPerformance', {
 
 <script>
     new Chartist.Pie('#gameStats', {
-  series: [133, 206]
+  series: [152, 223]
 }, {
   donut: true,
   donutWidth: 20,
@@ -854,7 +887,7 @@ new Chartist.Bar('#streakPerformance', {
 // Create a new line chart object where as first parameter we pass in a selector
 // that is resolving to our chart container element. The Second parameter
 // is the actual data object.
-new Chartist.Line('#groupChanges', {"labels":["L45","L46","L47","L48","L50"],"series":[[9,8,10,11,12]]}, options);
+new Chartist.Line('#groupChanges', {"labels":["L45","L46","L47","L48","L50","L53"],"series":[[9,8,10,11,12,15]]}, options);
 </script>
 
 <script>
@@ -895,7 +928,7 @@ new Chartist.Line('#groupChanges', {"labels":["L45","L46","L47","L48","L50"],"se
           }]
         ];
 
-        Chartist.Line('#performancePercentage', {"labels":["L45","L46","L47","L48","L50"],"series":[[64,50,53,59,53],[57,49,49,55,49],[12,66,57,62,50]]}, optionsSales, responsiveSales);
+        Chartist.Line('#performancePercentage', {"labels":["L45","L46","L47","L48","L50","L53"],"series":[[64,50,53,59,53,30],[57,49,49,55,49,28],[12,66,57,62,50,50]]}, optionsSales, responsiveSales);
 
 </script>
 
