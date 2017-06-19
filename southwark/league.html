@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>League Statistics</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="assets/css/animate.min.css" rel="stylesheet"/>
+
+    <!--  Paper Dashboard core CSS    -->
+    <link href="assets/css/paper-dashboard.css" rel="stylesheet"/>
+
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <!--<link href="assets/css/demo.css" rel="stylesheet" />-->
+
+
+    <!--  Fonts and icons     -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar" data-background-color="white" data-active-color="danger">
+
+    <!--
+		Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+		Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+	-->
+
+    	<div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="https://eric-mckinley.github.io/" class="simple-text">
+                    Tennis Stats
+                </a>
+            </div>
+
+            <ul class="nav">
+                <li>
+                    <a href="../index.html">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p>Leagues</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://localtennisleagues.com">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <p>Local Tennis Leagues</p>
+                    </a>
+                </li>
+            </ul>
+    	</div>
+    </div>
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar bar1"></span>
+                        <span class="icon-bar bar2"></span>
+                        <span class="icon-bar bar3"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Select a Player</a>
+                </div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-flag-o" aria-hidden="true"></i>
+									<p>Top Souhwark Player</p>
+									<b class="caret"></b>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="player_48.html">By Wins</a></li>
+                                <li><a href="player_1.html">By Win %</a></li>
+                                <li><a href="player_25.html">By Games</a></li>
+                                <li><a href="player_45.html">By Win Streak</a></li>
+                                <li><a href="player_26.html">By Losing Streak</a></li>
+                              </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+        <div class="content">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Souhwark</h4>
+                                <p class="category">All League Players.</p>
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <th>Player</th>
+                                    </thead>
+                                    <tbody>
+                                                                        <tr>
+                                        <td><a href="player_10.html">Adam Ezerins</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_35.html">Aitor Salas</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_27.html">Alberto Serra</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_45.html">Alex Appetiti</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_46.html">Alex Carle</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_23.html">Amaia Ibarguen</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_58.html">Andrea Farnelli</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_12.html">Andy Shanks</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_56.html">Bart-Jan Henkelman</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_3.html">Bastien Delapre</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_6.html">Bernat Pujol</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_${player.id}.html">Cat Rapeanu</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_17.html">Chris Bowden</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_16.html">Christian Foss</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_40.html">Conor Brown</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_22.html">Daniel Fenner</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_60.html">Daniel Lynn</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_48.html">Daniel Mackintosh</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_2.html">David Jovic</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_25.html">David Onyon</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_64.html">David Shekman</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_33.html">Diego Campos</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_41.html">Freddy Harris</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_66.html">Gaurav Dudhoria</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_67.html">Gaurav Johri</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_49.html">Gaurav Sarin</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_36.html">George Penman</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_42.html">Georgia Battye</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_43.html">Georgios Ouzounis</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_65.html">Gustav Fichardt withdrawn</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_30.html">Iain Howard</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_61.html">Ian Agass</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_15.html">Iosif Beloukas</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_44.html">Jack Cunliffe withdrawn</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_29.html">Jake Horslen</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_68.html">James Lidgett</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_55.html">James Lush</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_57.html">Jamie Hughes</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_59.html">Jeff Vurganov</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_19.html">Jeffrey Wan</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_51.html">Jerome Gonthier</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_7.html">Joe Webber</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_31.html">Jon Edmonds withdrawn</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_70.html">Joseph Sako</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_18.html">Kay Liu</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_26.html">Laura Blake</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_39.html">Louis Blaxill</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_20.html">Magnus Engvall</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_32.html">Matt Strutte</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_63.html">Max Schreder</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_11.html">May Yu</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_13.html">Michael Sebti</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_47.html">Natalie Butler</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_4.html">Nung Lin</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_14.html">Ollie Tomlins</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_62.html">PETER MARTINAK</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_28.html">Paul Kimberley</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_52.html">Pierluigi Ricchiuti</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_24.html">Sam Long</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_69.html">Samson Woodley</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_21.html">Sarah Eade</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_37.html">Sarah Rainford</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_38.html">Steven Mcdowall</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_54.html">Taihei Yamamoto</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_1.html">Thomas Nette</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_9.html">Thomas Schroeter</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_34.html">Timothy O'hara</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_8.html">Toby Kenward</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_5.html">Tom Bryan</a></td>
+                                    </tr>
+                                                                        <tr>
+                                        <td><a href="player_50.html">Youssef Essaegh</a></td>
+                                    </tr>
+                                                                        </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <nav class="pull-left">
+                    <ul>
+
+                        <li>
+                            <a href="http://localtennisleagues.com">
+                                Local Tennis League Stats
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="copyright pull-right">
+                    &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by <a href="http://www.github.com/eric-mckinley">Eric McKinley</a>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+</div>
+
+
+
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11222996;
+var sc_invisible=1;
+var sc_security="3a7c70c6";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="site stats"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11222996/0/3a7c70c6/1/" alt="site
+stats"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+</body>
+
+    <!--   Core JS Files   -->
+    <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+	<!--  Checkbox, Radio & Switch Plugins -->
+	<script src="assets/js/bootstrap-checkbox-radio.js"></script>
+
+	<!--  Charts Plugin -->
+	<script src="assets/js/chartist.min.js"></script>
+
+    <!--  Notifications Plugin    -->
+    <script src="assets/js/bootstrap-notify.js"></script>
+
+    <!--  Google Maps Plugin    -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+	<script src="assets/js/paper-dashboard.js"></script>
+
+</html>

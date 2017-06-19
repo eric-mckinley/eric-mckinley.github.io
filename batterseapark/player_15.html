@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Player Statistics</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="assets/css/animate.min.css" rel="stylesheet"/>
+
+    <!--  Paper Dashboard core CSS    -->
+    <link href="assets/css/paper-dashboard.css" rel="stylesheet"/>
+
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <!--<link href="assets/css/demo.css" rel="stylesheet" />-->
+
+
+    <!--  Fonts and icons     -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar" data-background-color="white" data-active-color="danger">
+
+    	<div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="https://eric-mckinley.github.io/" class="simple-text">
+                    Tennis Stats
+                </a>
+            </div>
+
+            <ul class="nav">
+                <li>
+                    <a href="../index.html">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p>Leagues</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://localtennisleagues.com">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <p>Local Tennis Leagues</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-panel">
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar bar1"></span>
+                        <span class="icon-bar bar2"></span>
+                        <span class="icon-bar bar3"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Statistics Dashboard of Joshua Eldridge</a>
+                </div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-flag-o" aria-hidden="true"></i>
+									<p>Top Battersea Park Player</p>
+									<b class="caret"></b>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="player_41.html">By Wins</a></li>
+                                <li><a href="player_11.html">By Win %</a></li>
+                                <li><a href="player_41.html">By Games</a></li>
+                                <li><a href="player_76.html">By Win Streak</a></li>
+                                <li><a href="player_6.html">By Losing Streak</a></li>
+                              </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+
+
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-xs-5">
+                                        <div class="icon-big icon-warning text-center">
+                                            <i class="fa fa-trophy" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-7">
+                                        <div class="numbers">
+                                            <p>Groups Won</p>
+                                            0
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <hr />
+                                    <div class="stats">
+                                        <i class="ti-info"></i> Won 0% of 2 Groups Entered
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-xs-5">
+                                        <div class="icon-big icon-success text-center">
+                                            <i class="fa fa-smile-o"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-7">
+                                        <div class="numbers">
+                                            <p>Matches Won</p>
+                                            1
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <hr />
+                                    <div class="stats">
+                                        <i class="ti-info"></i> Won 16% of 6 Matches Played
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-xs-5">
+                                        <div class="icon-big icon-danger text-center">
+                                            <i class="fa fa-pause" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-7">
+                                        <div class="numbers">
+                                            <p>Sets Won</p>
+                                            2
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <hr />
+                                    <div class="stats">
+                                        <i class="ti-timer"></i> Won 15% of 13 Sets Played
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-xs-5">
+                                        <div class="icon-big icon-info text-center">
+                                            <i class="ti-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-7">
+                                        <div class="numbers">
+                                            <p>Games Won</p>
+                                            32
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <hr />
+                                    <div class="stats">
+                                        <i class="ti-info"></i> Won 31% of 101 Games Played
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Players Overall Results</h4>
+                                <p class="category">Percentile Round Finishes</p>
+                            </div>
+                            <div class="content">
+                                <div id="performancePercentage" class="ct-chart"></div>
+                                <div class="footer">
+                                    <div class="chart-legend">
+                                        <i class="fa fa-circle text-info"></i> Overall League Ranking
+                                        <i class="fa fa-circle text-warning"></i> Group Ranking
+                                        <i class="fa fa-circle text-danger"></i> In Group Ranking
+                                    </div>
+                                    <hr>
+                                    <div class="stats">
+                                        <i class="ti-info"></i> The higher the better
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Players Group Performances</h4>
+                                <p class="category">Group Match Results</p>
+                            </div>
+                            <div class="content">
+                                <div id="groupPerformance" class="ct-chart"></div>
+                                <div class="footer">
+                                    <div class="chart-legend">
+                                        <i class="fa fa-circle text-info"></i> Won
+                                        <i class="fa fa-circle text-warning"></i> Lost
+                                        <i class="fa fa-circle text-danger"></i> Unfinished
+                                        <i class="fa fa-circle text-success"></i> Not Played
+                                    </div>
+                                    <hr>
+                                    <div class="stats">
+                                        <i class="ti-info"></i> Individual Group Performance
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Match Performance</h4>
+                                <p class="category">How has Joshua Eldridge played</p>
+                            </div>
+                            <div class="content">
+                                <div id="chartMatchPerformance" class="ct-chart "></div>
+
+                                <div class="footer">
+                                    <div class="chart-legend">
+                                        <i class="fa fa-circle text-info"></i> Won 1
+                                        <i class="fa fa-circle text-warning"></i> Lost 5
+                                        <i class="fa fa-circle text-danger"></i> Unfinished 0
+                                        <i class="fa fa-circle text-success"></i> Not Played 6
+                                    </div>
+                                    <hr>
+                                    <div class="stats">
+                                        <i class="check"></i> Data from 6 matches
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card ">
+                            <div class="header">
+                                <h4 class="title">Games</h4>
+                                <p class="category">Win Loss Games Data</p>
+                            </div>
+                            <div class="content">
+                                <div id="gameStats" class="ct-chart"></div>
+
+                                <div class="footer">
+                                    <div class="chart-legend">
+                                        <i class="fa fa-circle text-info"></i> Won 31%
+                                                                                <i class="fa fa-circle text-warning"></i> Lost 69%
+                                    </div>
+                                    <hr>
+                                    <div class="stats">
+                                        <i class="ti-check"></i> Data from 101 Games
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Group Progression</h4>
+                                <p class="category">Joshua Eldridge Groups</p>
+                            </div>
+                            <div class="content">
+                                <div id="groupChanges" class="ct-chart ct-perfect-fourth"></div>
+
+                                <div class="footer">
+                                    <div class="chart-legend">
+                                        <i class="fa fa-circle text-info"></i> Group Progress
+                                    </div>
+                                    <hr>
+                                    <div class="stats">
+                                        <i class="ti-timer"></i> Movement between leagues
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card ">
+                            <div class="header">
+                                <h4 class="title">Longest Streaks</h4>
+                                <p class="category">Joshua Eldridge Longest Match and Set Streaks</p>
+                            </div>
+                            <div class="content">
+                                <div id="streakPerformance" class="ct-chart"></div>
+
+                                <div class="footer">
+                                    <div class="chart-legend">
+                                        <i class="fa fa-circle text-warning"></i> Winning Streak
+                                        <i class="fa fa-circle text-info"></i> Losing Streak
+                                    </div>
+                                    <hr>
+                                    <div class="stats">
+                                        <i class="ti-check"></i> Data by Match input
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Groups Results</h4>
+                                <p class="category">All Groups Joshua Eldridge has played in.</p>
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-striped">
+                                    <thead>
+                                    <th>League</th>
+                                    <th>Group</th>
+                                    <th>Pos</th>
+
+                                    <th>W</th>
+                                    <th>L</th>
+                                    <th>UF</th>
+                                    <th>NP</th>
+
+                                    <th>BP</th>
+                                    <th>PT</th>
+                                    </thead>
+                                    <tbody>
+                                                                        <tr>
+                                        <td>24</td>
+                                        <td>2</td>
+                                        <td>7</td>
+
+                                        <td>0</td>
+                                        <td>4</td>
+                                        <td>0</td>
+                                        <td>3</td>
+
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>25</td>
+                                        <td>3</td>
+                                        <td>3</td>
+
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+
+                                        <td>0</td>
+                                        <td>2</td>
+                                    </tr>
+                                    
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Match Results</h4>
+                                <p class="category">All Matches Joshua Eldridge has played in.</p>
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <th>Group</th>
+                                        <th>Date</th>
+                                        <th>Opponent</th>
+                                        <th>Outcome</th>
+                                        <th>Set 1</th>
+                                        <th>Set 2</th>
+                                        <th>Set 3</th>
+                                    </thead>
+                                    <tbody>
+
+                                                                        <tr>
+                                        <td>2</td>
+                                        <td>-</td>
+                                                                            <td><a href="player_13.html">Tim Osborne</a></td>
+                                        <td>Lost</td>
+                                        <td>1-6</td>
+                                        <td>3-6</td>
+                                        <td>0-0</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                        <td>2</td>
+                                        <td>-</td>
+                                                                            <td><a href="player_12.html">Jeremy Sargent</a></td>
+                                        <td>Lost</td>
+                                        <td>3-6</td>
+                                        <td>0-6</td>
+                                        <td>0-0</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                        <td>2</td>
+                                        <td>-</td>
+                                                                            <td><a href="player_10.html">Gabriel Sousa</a></td>
+                                        <td>Lost</td>
+                                        <td>2-6</td>
+                                        <td>1-6</td>
+                                        <td>0-0</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                        <td>2</td>
+                                        <td>-</td>
+                                                                            <td><a href="player_9.html">Damien Marty</a></td>
+                                        <td>Lost</td>
+                                        <td>0-6</td>
+                                        <td>1-6</td>
+                                        <td>0-0</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                        <td>3</td>
+                                        <td>-</td>
+                                                                            <td><a href="player_14.html">Kristian Nikinmaa</a></td>
+                                        <td>Lost</td>
+                                        <td>3-6</td>
+                                        <td>2-6</td>
+                                        <td>0-0</td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                        <td>3</td>
+                                        <td>-</td>
+                                                                            <td><a href="player_20.html">William Brayshaw</a></td>
+                                        <td>Won</td>
+                                        <td>6-0</td>
+                                        <td>4-6</td>
+                                        <td>6-3</td>
+                                                                        </tr>
+
+                                    
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <nav class="pull-left">
+                    <ul>
+
+                        <li>
+                            <a href="http://localtennisleagues.com">
+                                Local Tennis League Stats
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="copyright pull-right">
+                    &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by <a href="http://www.github.com/eric-mckinley">Eric McKinley</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</div>
+
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11222996;
+var sc_invisible=1;
+var sc_security="3a7c70c6";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="site stats"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11222996/0/3a7c70c6/1/" alt="site
+stats"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+</body>
+
+    <!--   Core JS Files   -->
+    <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+	<!--  Checkbox, Radio & Switch Plugins -->
+	<script src="assets/js/bootstrap-checkbox-radio.js"></script>
+
+	<!--  Charts Plugin -->
+	<script src="assets/js/chartist.min.js"></script>
+
+    <!--  Notifications Plugin    -->
+    <script src="assets/js/bootstrap-notify.js"></script>
+
+    <!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+	<script src="assets/js/paper-dashboard.js"></script>
+
+	<script type="text/javascript">
+    	$(document).ready(function(){
+
+        	demo.initChartist();
+
+        	$.notify({
+            	icon: 'ti-dribbble',
+            	message: "Welcome to <b>Tennis Dashboard</b> - Beautifying your Local Tennis Leagues experience."
+
+            },{
+                type: 'success',
+                timer: 4000
+            });
+
+    	});
+	</script>
+
+<script type="text/javascript">
+
+    var data = {
+  labels: ['Won', 'Lost', 'Unfinished', 'Not Played'],
+  series: [1, 5, 0, 6]
+};
+
+var options = {
+  labelInterpolationFnc: function(value) {
+    return value[0]
+  }
+};
+
+var responsiveOptions = [
+  ['screen and (min-width: 640px)', {
+    chartPadding: 10,
+    labelOffset: 10,
+    labelDirection: 'explode',
+    labelInterpolationFnc: function(value) {
+      return value;
+    }
+  }],
+  ['screen and (min-width: 1024px)', {
+    labelOffset: 50,
+    chartPadding: 0
+  }]
+];
+
+new Chartist.Pie('#chartMatchPerformance', data, options, responsiveOptions);
+
+
+</script>
+
+<script>
+    new Chartist.Bar('#groupPerformance',
+    {"labels":["L24 G2","L25 G3"],"series":[[0,1],[4,1],[0,0],[3,3]]}
+    , {
+  seriesBarDistance: 10,
+  axisX: {
+    offset: 0
+  },
+  axisY: {
+    offset: 30,
+    scaleMinSpace: 15
+  }
+});
+
+</script>
+
+<script>
+new Chartist.Bar('#streakPerformance', {
+  labels: ['Matches', 'Sets'],
+  series: [
+    [1, 1],
+    [5, 10]
+
+  ]
+}, {
+  seriesBarDistance: 10,
+  reverseData: true,
+  horizontalBars: true,
+  axisY: {
+    offset: 70
+  }
+});
+</script>
+
+
+
+<script>
+    new Chartist.Pie('#gameStats', {
+  series: [32, 69]
+}, {
+  donut: true,
+  donutWidth: 20,
+  showLabel: true
+});
+</script>
+
+
+<script>
+    var data = {
+  // A labels array that can contain any sort of values
+  labels: ['League 40', 'League 41', 'League 42', 'League 43', 'League 44', 'League 45', 'League 46'],
+  // Our series array that contains series objects or in this case series data arrays
+  series: [
+    [22, 19, 15, 16, 19, 17, 17]
+  ]
+};
+
+ var options = {
+  low: 0,
+  showArea: true
+}
+
+// Create a new line chart object where as first parameter we pass in a selector
+// that is resolving to our chart container element. The Second parameter
+// is the actual data object.
+new Chartist.Line('#groupChanges', {"labels":["L24","L25"],"series":[[2,3]]}, options);
+</script>
+
+<script>
+        var dataSales = {
+          labels: ['League 40', 'League 41', 'League 42', 'League 43', 'League 44', 'League 45', 'League 46', 'League 47'],
+          series: [
+             [98, 76, 88, 92, 55, 2, 77, 79],
+             [28, 63, 96, 84, 58, 40, 77, 80]
+          ]
+        };
+
+        var optionsSales = {
+          lineSmooth: false,
+          low: 0,
+          high: 100,
+          showArea: false,
+          height: "245px",
+          axisX: {
+            showGrid: true,
+          },
+          axisY: {
+            labelInterpolationFnc: function(value, index) {
+              return value + '%';
+            }
+          },
+          lineSmooth: Chartist.Interpolation.none(),
+          showLine: true,
+          showPoint: true,
+        };
+
+        var responsiveSales = [
+          ['screen and (max-width: 640px)', {
+            axisX: {
+              labelInterpolationFnc: function (value) {
+                return value[0];
+              }
+            }
+          }]
+        ];
+
+        Chartist.Line('#performancePercentage', {"labels":["L24","L25"],"series":[[92,78],[86,72],[25,66]]}, optionsSales, responsiveSales);
+
+</script>
+
+</html>
